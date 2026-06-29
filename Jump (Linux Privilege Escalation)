@@ -1,1 +1,11 @@
+THM Jump Challenge
+https://tryhackme.com/room/jump
+
+Room description: You’ve discovered a misconfigured internal automation pipeline running on a Linux server. The system processes recon scripts, development backups, monitoring jobs, and deployment tasks across multiple users. Each stage of the pipeline relies too heavily on the previous one. By abusing these trust boundaries, you must move laterally through the system.
+
+Objective: To escalate from anonymous access all the way through:
+recon_user → dev_user → monitor_user → ops_user → root
+
+Attacker IP: 10.49.88.46
+Target IP: 10.49.147.104
 
